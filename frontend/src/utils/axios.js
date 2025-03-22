@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 // Set base URL for all axios requests
-axios.defaults.baseURL = 'http://localhost:5000';
+axios.defaults.baseURL = 'https://carring-nanny-be.onrender.com';
 
 // Interceptor to add auth token to requests
 axios.interceptors.request.use(
